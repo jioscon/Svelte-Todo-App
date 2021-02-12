@@ -36,7 +36,6 @@
     }
     todoList = [...todoList, { text: newItem, status: false }];
     newItem = '';
-    newItem.focus()
   }
 
   function deleteToList(index) {
@@ -91,3 +90,9 @@
     <span>remaining : {leftItems}</span>
   </div>
 </main>
+
+<style>
+  main {
+	min-height: 100vh;
+}
+</style>
