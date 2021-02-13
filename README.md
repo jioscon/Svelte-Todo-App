@@ -1,6 +1,7 @@
 # svelte todo app
 
 ![license MIT](https://img.shields.io/github/license/jeycons/Svelte-Todo-App)
+![GitHub top language](https://img.shields.io/github/languages/top/jeycons/Svelte-Todo-App)
 
 Svelte Todo App 만들기
 
