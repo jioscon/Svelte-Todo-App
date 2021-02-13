@@ -157,8 +157,17 @@ header .title h1 {
 
 .todo-item {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	justify-content: space-between;
 	padding-bottom: 8px;
+}
+.todo-item .input-item {
+	display: inline-block;
+	width: 100%;
+	background-color: transparent;
+	margin: 0 10px 0 0;
+	color: red;
 }
 .todo-item button:not(:disabled):active {
 		color: red;
